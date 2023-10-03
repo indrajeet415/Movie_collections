@@ -15,4 +15,8 @@ body {
 }
 .container {
   margin: 0px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }

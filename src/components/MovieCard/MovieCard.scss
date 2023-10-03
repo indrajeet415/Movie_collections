@@ -3,7 +3,12 @@
   background: $secondary-color;
   cursor: pointer;
   transition: all 0.3s;
-
+  
+  align-items: center;
+  margin:20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px  #555252;
+  width: 350px;
   &:hover {
     transform: scale(1.1);
     transition: all 0.3s;
@@ -21,9 +26,13 @@
 
 .card-bottom {
   padding: 20px;
+  display:flex;
+  flex-direction: column;
 }
 .card-info {
   color: $font-primary;
+  display:flex;
+  flex-direction: row;
   h4 {
     font-size: 22px;
     font-weight: 400;
